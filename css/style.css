@@ -7,7 +7,7 @@ body {
 header {
   width: 1200px;
   margin: auto;
-  display: flex;
+  display: flex !important;
   flex-direction: row;
   align-items: center;
   font-size: 12px; }
@@ -168,6 +168,9 @@ footer {
       cursor: pointer; }
       .reservation .right .brone:hover {
         background: #c2bbbb; }
+
+.galary h1 {
+  color: tomato; }
 
 .parallax-window {
   min-height: 306px;
