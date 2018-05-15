@@ -1,0 +1,180 @@
+body {
+  background: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arimo, Helvetica, Arial, sans-serif; }
+
+header {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px; }
+  header .logo img {
+    height: 100px; }
+  header .menu a {
+    margin-left: 20px;
+    color: #0D4919;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    transition: all 1s; }
+    header .menu a:hover {
+      border-bottom: 2px solid rgba(13, 73, 25, 0.6); }
+
+.galery {
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px; }
+  .galery a {
+    margin-left: 1px; }
+    .galery a img {
+      width: 280px;
+      height: 210px; }
+
+.info {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .info iframe {
+    margin-left: 5px;
+    margin-top: 40px; }
+  .info .item {
+    width: 280px;
+    height: 210px;
+    margin-left: 5px;
+    margin-top: 40px;
+    background: black;
+    position: relative; }
+    .info .item img {
+      width: 280px;
+      height: 210px;
+      opacity: 0.5; }
+    .info .item .text {
+      position: absolute;
+      width: 100%;
+      top: 100px;
+      color: white;
+      text-decoration: none;
+      text-align: center; }
+  .info .itemBig {
+    width: 565px;
+    background: #67bc25;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    letter-spacing: .05em;
+    font-size: 17px; }
+    .info .itemBig p {
+      padding: 0px;
+      margin: 0px;
+      color: #ffffff; }
+  .info .shadow {
+    background: rgba(0, 0, 0, 0.6); }
+
+footer {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto; }
+  footer .contacts {
+    width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center; }
+    footer .contacts .item {
+      width: 380px;
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      vertical-align: top; }
+      footer .contacts .item img {
+        padding: 10px;
+        border: 2px solid black; }
+      footer .contacts .item .text {
+        margin-top: 40px;
+        text-align: center; }
+  footer .tag {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+.reservation {
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row; }
+  .reservation .column {
+    display: flex;
+    flex-wrap: wrap; }
+    .reservation .column .wraper {
+      width: 600px;
+      margin-left: 20px; }
+      .reservation .column .wraper .text {
+        width: 550px;
+        text-align: justify; }
+      .reservation .column .wraper .galery {
+        width: 600px; }
+  .reservation .left {
+    flex-direction: row;
+    width: 670px; }
+  .reservation .right {
+    width: 530px;
+    flex-direction: column; }
+    .reservation .right .clgreen {
+      color: #0D4919;
+      font-weight: 100; }
+    .reservation .right h1 {
+      width: 100%;
+      display: block;
+      padding: 0px;
+      margin: 0px; }
+      .reservation .right h1 span {
+        float: right; }
+    .reservation .right p {
+      padding: 0px;
+      margin: 0px;
+      font-size: 12px;
+      margin-top: 10px;
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 600; }
+    .reservation .right .line {
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid #0D4919;
+      margin-top: 10px; }
+    .reservation .right textarea {
+      height: 150px;
+      resize: none; }
+    .reservation .right input, .reservation .right select, .reservation .right option {
+      color: rgba(0, 0, 0, 0.5); }
+    .reservation .right .brone {
+      text-align: center;
+      color: white;
+      background: gray;
+      margin-top: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      transition: 1s all;
+      cursor: pointer; }
+      .reservation .right .brone:hover {
+        background: #c2bbbb; }
+
+.parallax-window {
+  min-height: 306px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .parallax-window h1 {
+    font-weight: 300;
+    color: white; }

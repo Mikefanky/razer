@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Бранирование - Razer</title>
+    <%-include('link')%>    
+</head>
+<body>
+    <%-include('header')%>
+    <main>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="../img/reservations.jpg">
+            <h1>БРОНИРОВАНИЕ</h1>
+        </div>
+    </main>
+    <section class="reservation">
+        <div class="column left">
+            <div class="block"><img src="../img/calendar.png" alt=""></div>
+            <div class="wraper">
+                <div class="text">
+                    Наша система бронирования позволит оформить заказ за несколько минут быстро и удобно.<br><br>
+                    После подачи заявки на сайте, в течение нескольких часов, наши специалисты по бронированию отправят на электронный адрес ответ,<br>
+                    который является гаранти­ро­ван­ным под­твер­жде­нием бро­ни вы­бран­но­го номера в го­сти­ни­це, а также ка­те­го­рии и да­ты заезда/выезда.<br><br>
+                    Пред­ва­ри­те­льное бро­ни­­ро­­ва­­ние – это воз­­мож­­ность вы­б­рать опти­маль­ный ва­­риант для про­­жи­­ва­­ния.
+                    </div>
+                <div class="galery">
+                    <a href="" ><img src="../img/03.jpg" alt=""></a>
+                    <a href="" ><img src="../img/08.jpg" alt=""></a>
+                    <a href="" ><img src="../img/07.jpg" alt=""></a>
+                    <a href="" ><img src="../img/010.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="column right">
+                <h1>Бронирование онлайн<span>750,00 ₴</span></h1>
+                <p class="clgreen">Общая информация</p>
+                <div class="line"></div>
+                <p>Заезд</p>
+                <div class="input-group date one" data-provide="datepicker">
+                    <input type="text" class="form-control" data-date-format="mm/dd/yyyy">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </div>
+                </div>
+                <p>Выезд</p>
+                <div class="input-group date two" data-provide="datepicker">
+                    <input type="text" class="form-control" data-date-format="mm/dd/yyyy">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </div>
+                </div>
+                <p>Номер</p>
+                <select name="number" id="">
+                    <option value="1">Стандарт<<Комфорт>>DBL</option>
+                    <option value="1">Стандарт<<Комфорт>>TWIN</option>
+                </select>
+                <p>Кол-во человек</p>
+                <select name="people" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <p class="clgreen">Личная информация</p>
+                <div class="line"></div>
+                <p>ФИО</p><input type="text" name="fio">
+                <p>Email</p><input type="text" name="email">
+                <p>Страна</p>
+                <select name="country" id="">
+                    <option value="1">Ukraine</option>
+                    <option value="2">Russian</option>
+                    <option value="3">Italia</option>
+                </select>
+                <p>Телефон  </p><input type="text" name="phone">
+                <p>Пожелания</p><textarea name="wishes"></textarea>
+                <div class="btn brone">ЗАБРОНИРОВАТЬ</div>
+                <div class="line"></div>
+        </div>
+    </section>
+    <%- include('footer') %>
+</body>
+</html>
