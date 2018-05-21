@@ -21,15 +21,15 @@ app.use (bodyParser.json ({
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.get('/',function(req,res){
+app.get('/index',function(req,res){
 	res.render("index.ejs",{});
 });
 
 app.get('/reservations',function(req,res){
 	res.render("reservations.ejs",{});
 });
-app.get('/photo',function(req,res){
-	res.render("photo.ejs",{});
+app.get('/photogallery',function(req,res){
+	res.render("photogallery.ejs",{});
 });
 app.post('/brone',data.setBrone);
 

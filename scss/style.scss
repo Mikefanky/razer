@@ -7,7 +7,7 @@ body {
 header{
     width: 1200px;
     margin:auto;
-    display: flex!important;
+    display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 12px;
@@ -210,13 +210,27 @@ footer{
         }
     }
 }
-///GALARY
-.galary{
-    h1{
-        color:tomato;
+///PHOTOGALLERY
+.photogallery{
+    width: 1200px;
+    margin:auto;
+    margin-top:40px;
+    .gallery{
+        width: 1200px;
+        margin: auto;
+        margin-top:40px;
+        a{
+            margin-left:1px;
+            img{
+                width: 280px;
+                height: 210px;
+            }
+        }
+        .photo{
+
+        }
     }
 }
-
 
 ///PARALAX
 .parallax-window {
