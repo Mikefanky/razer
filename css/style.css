@@ -5,10 +5,10 @@ body {
   font-family: Arimo, Helvetica, Arial, sans-serif; }
 
 header {
+  display: flex !important;
+  flex-direction: row;
   width: 1200px;
   margin: auto;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   font-size: 12px; }
   header .logo img {
@@ -171,17 +171,18 @@ footer {
 
 .photogallery {
   width: 1200px;
-  margin: auto;
-  margin-top: 40px; }
+  margin: auto; }
   .photogallery .gallery {
-    width: 1200px;
-    margin: auto;
-    margin-top: 40px; }
-    .photogallery .gallery a {
-      margin-left: 1px; }
-      .photogallery .gallery a img {
-        width: 280px;
-        height: 210px; }
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .photogallery .photo {
+    margin-left: 10px;
+    margin-top: 10px; }
+    .photogallery .photo img {
+      width: 280px;
+      height: 210px; }
 
 .parallax-window {
   min-height: 306px;

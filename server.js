@@ -21,7 +21,7 @@ app.use (bodyParser.json ({
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.get('/index',function(req,res){
+app.get('/',function(req,res){
 	res.render("index.ejs",{});
 });
 
