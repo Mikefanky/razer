@@ -15,10 +15,9 @@ window.onload = function () {
 	}
 	function openImg(pic){
 		modalWindow.style.display='block';
-		modalBlock.style.transform = 'translateY(0%)';
 		modalImg.src = pic.src;
 		modalImg.alt = pic.alt;
-	  caption.innerHTML = modalImg.alt;
+		setTimeout(	zoom, 50);
 	}
 
 	function close(){
@@ -27,5 +26,8 @@ window.onload = function () {
 	span.onclick = function(){
 		modalBlock.style.transform = 'translateY(-500%)';
 		setTimeout(	close, 500);
+	}
+	function zoom(){
+		modalBlock.style.transform = 'translateY(0%)';
 	}
 }
