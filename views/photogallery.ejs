@@ -7,46 +7,85 @@
 	<title>Фотогалерея - Razer</title>
 	<%-include('link')%>
 </head>
+<%-include('header')%>
 <body>
-	<%-include('header')%>
+	
 	<main>
         <div class="parallax-window" data-parallax="scroll" data-image-src="../img/fon-photo.jpg">
             <h1>ФОТОГАЛЕГЕЯ</h1>
         </div>
+    </main>
 	<section class="photogallery">
-            <div class="gallery">
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/100.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/101.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/102.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/103.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/104.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/105.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/106.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/106.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/128.jpg"></a></div> 
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/108.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/109.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/110.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/111.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/112.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/113.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/106.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/115.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/116.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/117.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/129.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/118.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/119.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/120.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/121.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/122.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/130.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/124.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/125.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/126.jpg"></a></div>
-                <div class="photo" href="" ><a href="" alt=""><img src="../img/127.jpg"></a></div>
-            </div>
-	</section>
+        <div class="box">
+            <img src="../img/100.jpg" alt="" class="my__img">
+            <img src="../img/101.jpg" alt="" class="my__img">
+            <img src="../img/102.jpg" alt="" class="my__img">
+            <img src="../img/103.jpg" alt="" class="my__img">
+            <img src="../img/104.jpg" alt="" class="my__img">
+            <img src="../img/105.jpg" alt="" class="my__img">
+            <img src="../img/106.jpg" alt="" class="my__img">
+            <img src="../img/108.jpg" alt="" class="my__img">
+            <img src="../img/108.jpg" alt="" class="my__img">
+            <img src="../img/109.jpg" alt="" class="my__img">
+            <img src="../img/110.jpg" alt="" class="my__img">
+            <img src="../img/111.jpg" alt="" class="my__img">
+            <img src="../img/112.jpg" alt="" class="my__img">
+            <img src="../img/113.jpg" alt="" class="my__img">
+            <img src="../img/114.jpg" alt="" class="my__img">
+            <img src="../img/115.jpg" alt="" class="my__img">
+            <img src="../img/116.jpg" alt="" class="my__img">
+            <img src="../img/117.jpg" alt="" class="my__img">
+            <img src="../img/128.jpg" alt="" class="my__img">
+            <img src="../img/118.jpg" alt="" class="my__img">
+            <img src="../img/119.jpg" alt="" class="my__img">
+            <img src="../img/120.jpg" alt="" class="my__img">
+            <img src="../img/121.jpg" alt="" class="my__img">
+            <img src="../img/122.jpg" alt="" class="my__img">
+            <img src="../img/123.jpg" alt="" class="my__img">
+            <img src="../img/124.jpg" alt="" class="my__img">
+            <img src="../img/125.jpg" alt="" class="my__img">
+            <img src="../img/126.jpg" alt="" class="my__img">
+        </div>
+        </section>
+    <div id="my__modal" class="my__modal">
+         <span class="close" id="close">&times;</span>
+    <div class="modal__block" id="modal__block">
+        <img id="img01" class="modal__content" alt="">
+    </div>
+        </div>
+        <script src="script.js"></script>
+          <!-- <div class="gallery">
+                <a href="" alt=""><img src="../img/100.jpg"></a>
+                <a href="" alt=""><img src="../img/101.jpg"></a>
+                <a href="" alt=""><img src="../img/102.jpg"></a>
+                <a href="" alt=""><img src="../img/103.jpg"></a>
+                <a href="" alt=""><img src="../img/104.jpg"></a>
+                <a href="" alt=""><img src="../img/105.jpg"></a>
+                <a href="" alt=""><img src="../img/106.jpg"></a>
+                <a href="" alt=""><img src="../img/128.jpg"></a> 
+                <a href="" alt=""><img src="../img/108.jpg"></a>
+                <a href="" alt=""><img src="../img/109.jpg"></a>
+                <a href="" alt=""><img src="../img/110.jpg"></a>
+                <a href="" alt=""><img src="../img/111.jpg"></a>
+                <a href="" alt=""><img src="../img/112.jpg"></a>
+                <a href="" alt=""><img src="../img/113.jpg"></a>
+                <a href="" alt=""><img src="../img/115.jpg"></a>
+                <a href="" alt=""><img src="../img/116.jpg"></a>
+                <a href="" alt=""><img src="../img/117.jpg"></a>
+                <a href="" alt=""><img src="../img/129.jpg"></a>
+                <a href="" alt=""><img src="../img/118.jpg"></a>
+                <a href="" alt=""><img src="../img/119.jpg"></a>
+                <a href="" alt=""><img src="../img/120.jpg"></a>
+                <a href="" alt=""><img src="../img/121.jpg"></a>
+                <a href="" alt=""><img src="../img/122.jpg"></a>
+                <a href="" alt=""><img src="../img/130.jpg"></a>
+                <a href="" alt=""><img src="../img/124.jpg"></a>
+                <a href="" alt=""><img src="../img/125.jpg"></a>
+                <a href="" alt=""><img src="../img/126.jpg"></a>
+                <a href="" alt=""><img src="../img/127.jpg"></a>
+                </div>
+            </div>-->
+	
 	<%-include('footer')%>
 </body>
 </html>
