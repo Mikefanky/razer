@@ -28,8 +28,14 @@ app.get('/',function(req,res){
 app.get('/reservations',function(req,res){
 	res.render("reservations.ejs",{});
 });
+app.get('/about-hotel',function(req,res){
+	res.render("about-hotel.ejs",{});
+});
 app.get('/photogallery',function(req,res){
 	res.render("photogallery.ejs",{});
+});
+app.get('/admin',function(req,res){
+	res.render("admin.ejs",{});
 });
 app.post('/brone',data.setBrone);
 

@@ -293,7 +293,108 @@ footer{
         }
     }
 }
-///
+
+///ABOUT-HOTEL
+.about-hotel{
+    width: 1200px;
+    margin:auto;
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+}
+.gallery1{
+    width: 600px!important; 
+    margin-top:1px;
+    a{
+        margin-left:1px;
+        img{
+            width: 280px;
+            height: 210px;
+        }
+    }
+}
+.allinfo{    
+    width: 1200px;
+    margin:auto;
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: row;
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    }
+    .item1{
+        border-left: 1px solid #000;
+    }
+    .item1_1{
+        height: 160px;
+        border-left: 1px solid #000;
+    }
+.info2{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    }
+    .item2{
+        width: 600px;
+        margin-top:1px;
+        border-left: 1px solid #000;
+        margin-right: 33px;
+    }
+        .item3{
+        border-left: 1px solid #000;
+        margin-right: 33px;
+        }
+       
+.gallery2{
+    width: 600px; 
+    margin-top:1px;
+    a{
+        margin-left:1px;
+        img{
+            width: 280px;
+            height: 210px;
+        }
+    }
+}
+
+.info3{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    }
+
+.gallery3{
+    width: 600px; 
+    margin-top:1px;
+    a{
+        margin-left:1px;
+        img{
+            width: 280px;
+            height: 210px;
+        }
+    }
+}
+.info3{
+ 
+
+    }
+    .item4{
+       
+        border-left: 1px solid #000;
+    }
+        .item5{
+            border-left: 1px solid #000;
+        }
+       
 
 
 ///PARALAX
