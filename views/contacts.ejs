@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Контакты</title>
+	<%-include('link')%>
+</head>
+<body>
+	<%-include('header')%>
+
+		<main>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="../img/fon-services.jpg">
+            <h1>КОНТАКТЫ</h1>
+        </div>
+    </main>
+    <footer>
+	    <div class="contacts">
+        <div class="item">
+            <img src="../img/flag.png" alt="">
+            <div class="text">
+                    Украина, г. Запорожье,
+                    ул. Иллича, 6
+            </div>
+        </div>
+        <div class="item">
+            <img src="../img/call.png" alt="">
+            <div class="text">
+                    Бронирование:<br>
+                    +38 (056) 717-70-03,<br>
+                    +38 (056) 717-70-04<br>
+                    <br>
+                    Администратор:<br>
+                    +38 (056) 717-70-07<br>
+                    +38 (067) 653-37-04<br>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../img/message.png" alt="">
+            <div class="text">
+                    info@razer.com
+            </div>
+        </div>
+    </div>
+</footer>
+	    <section class="feedback">
+    	<section class="feedback1">
+            <p class="forma">Форма обратной связи</p>
+                <div class="line"></div>
+                	<p>Ваше имя (обязательно)</p><input type="text" name="name">
+                	<p>Название компании (обязательно)</p><input type="text" name="company">
+           	 		<p>Ваш e-mail (обязательно)</p><input type="text" name="email">
+                	<p>Отзыв (обязательно)</p><input type="text" name="review">
+                <div class="btn brone">Оставить отзыв</div>
+                <div class="line"></div>
+    	</section>
+    	</section>
+    	<section >
+        	<section class="maps">
+			<div id="map"></div>
+    	</section>
+    	<script src="../script/maps.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6uwV4JPT78mTvv2FOPxFouHnqhi-M5iU&callback=initMap">
+    </script>
+<footer>
+    <div class="tag">
+        © 2018 ALL RIGHT RESERVED
+    </div>
+</footer>
+</body>
+</html>

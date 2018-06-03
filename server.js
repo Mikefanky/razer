@@ -34,6 +34,12 @@ app.get('/about',function(req,res){
 app.get('/reviews',function(req,res){
 	res.render("reviews.ejs",{});
 });
+app.get('/contacts',function(req,res){
+	res.render("contacts.ejs",{});
+});
+app.get('/rooms',function(req,res){
+	res.render("rooms.ejs",{});
+});
 app.get('/photogallery',function(req,res){
 	res.render("photogallery.ejs",{});
 });

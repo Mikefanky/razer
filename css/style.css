@@ -66,7 +66,7 @@ header {
     padding: 10px 5px;
     box-sizing: border-box;
     letter-spacing: .05em;
-    font-size: 17px; }
+    font-size: 15px; }
     .info .itemBig p {
       padding: 0px;
       margin: 0px;
@@ -334,6 +334,9 @@ footer {
   width: 600px;
   margin-top: 20px; }
 
+a {
+  text-align: right; }
+
 .logo1 {
   width: 600px;
   margin-top: 1px; }
@@ -342,6 +345,18 @@ footer {
     height: 60px; }
   .logo1 b {
     margin-left: 20px; }
+
+.reviews2 {
+  width: 600px;
+  display: flex;
+  flex-direction: column; }
+
+.caption1 {
+  width: 600px;
+  margin-top: 20px; }
+
+b {
+  margin-left: 20px; }
 
 .lastreviews3 {
   width: 100%;
@@ -357,19 +372,51 @@ footer {
     width: 270px;
     background: #323232; }
   .reviews3 .btn.brone {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     margin-top: 5px;
     margin-bottom: 5px; }
 
 .forma {
-  color: white;
+  color: black;
   font-size: 20px; }
 
 p {
-  color: white; }
+  color: black; }
 
 .btn {
-  color: white; }
+  color: black; }
+
+.feedback {
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: #323232; }
+
+.feedback1 {
+  width: 270px;
+  margin: auto; }
+  .feedback1 input {
+    width: 270px;
+    background: #323232; }
+  .feedback1 .btn.brone {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+.forma {
+  color: black;
+  font-size: 20px; }
+
+p {
+  color: black; }
+
+.btn {
+  color: black; }
+
+#map {
+  height: 350px;
+  width: 450px; }
 
 .parallax-window {
   min-height: 306px;
@@ -379,4 +426,4 @@ p {
   align-items: center; }
   .parallax-window h1 {
     font-weight: 300;
-    color: white; }
+    color: black; }

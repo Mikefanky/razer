@@ -80,7 +80,7 @@ header{
         padding: 10px 5px;
         box-sizing: border-box;
         letter-spacing: .05em;
-        font-size: 17px;
+        font-size: 15px;
         
         p{
             padding: 0px;
@@ -414,10 +414,13 @@ footer{
         margin-top:20px;
         
     }
+    a{
+        text-align: right;
+    }
 
 .logo1{
     width: 600px;
-        margin-top:1px;
+    margin-top:1px;
     img{
         width: 60px;
         height: 60px;
@@ -426,6 +429,22 @@ footer{
         margin-left:20px;
     }
 }
+.reviews2{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .caption1{
+        width: 600px;
+        margin-top:20px;   
+    }
+
+    .logo2{
+    }
+    b{
+    margin-left: 20px;
+    }
 .lastreviews3{
     width: 100%;
     margin:auto;
@@ -441,26 +460,66 @@ footer{
         background: #323232;
     }
     .btn.brone{
-        border:1px solid rgba(0,0,0,0.8);
+        border:1px solid rgba(255,255,255, 0.3);
         margin-top:5px;
         margin-bottom:5px;
     }
 }
     .forma{
-        color:white;
+        color:black;
         font-size: 20px;
     }
     .line{
     }
     p{
-    color:white;
+    color:black;
 }
 .btn{
-    color: white;
+    color: black;
 }
 
+///CONTACTS
+.feedback{
+    width: 100%;
+    margin:auto;
+    flex-direction: column;
+    margin-top:40px;
+    background-color:#323232;
+}
+.feedback1{
+    width: 270px;
+    margin: auto;
+    input{
+        width: 270px;
+        background: #323232;
+    }
+    .btn.brone{
+        border:1px solid rgba(255,255,255, 0.3);
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+}
+    .forma{
+        color:black;
+        font-size: 20px;
+    }
+    .line{
+    }
+    p{
+    color:black;
+}
+.btn{
+    color: black;
+}
 
+///MAPS
+.maps{
 
+}
+#map {
+    height: 350px;
+    width: 450px;
+ }
 ///PARALAX
 .parallax-window {
     min-height: 306px;
@@ -470,6 +529,6 @@ footer{
     align-items: center;
     h1{
         font-weight: 300;
-        color:white;
+        color:black;
     }
 }
