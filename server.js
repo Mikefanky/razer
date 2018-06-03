@@ -28,8 +28,11 @@ app.get('/',function(req,res){
 app.get('/reservations',function(req,res){
 	res.render("reservations.ejs",{});
 });
-app.get('/about-hotel',function(req,res){
+app.get('/about',function(req,res){
 	res.render("about-hotel.ejs",{});
+});
+app.get('/reviews',function(req,res){
+	res.render("reviews.ejs",{});
 });
 app.get('/photogallery',function(req,res){
 	res.render("photogallery.ejs",{});

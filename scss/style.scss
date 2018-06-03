@@ -396,6 +396,60 @@ footer{
         }
        
 
+///REVIEWS
+.reviews{
+    width: 1200px;
+    margin:auto;
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+}
+.reviews1{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    .caption{
+        width: 600px;
+        margin-top:1px;
+    }
+
+.logo1{
+    width: 600px;
+        margin-top:1px;
+    img{
+        width: 60px;
+        height: 60px;
+    }
+}
+.lastreviews3{
+    width: 100%;
+    margin:auto;
+    flex-direction: column;
+    margin-top:40px;
+    background-color:#323232;
+}
+.reviews3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em
+
+}
+    .forma{
+        color:white;
+        font-size: 20px;
+    }
+    .line{
+    }
+    p{
+    color:white;
+}
+.btn{
+    color: white;
+}
+
+
 
 ///PARALAX
 .parallax-window {
