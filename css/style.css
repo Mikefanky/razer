@@ -391,16 +391,26 @@ p {
 .btn {
   color: black; }
 
-#slider {
-  /*положение слайдера*/
-  position: relative;
-  text-align: center;
-  top: 10px;
-  right: 108px; }
+.sliderandinforooms {
+  width: 600px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row; }
 
-#slider {
-  /*центровка слайдера*/
-  margin: 50px auto; }
+.slider {
+  /*положение слайдера*/
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: inherit; }
+
+.inforoom {
+  width: 450pxpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 77px; }
 
 #slides article {
   /*все изображения справа друг от друга*/
@@ -417,14 +427,9 @@ p {
   width: 100%;
   overflow: hidden; }
 
-article img {
+.article img {
   /*размер изображений слайдера*/
-  width: 100%; }
-
-#desktop:checked ~ #slider {
-  /*размер всего слайдера*/
-  max-width: 600px;
-  /*максимальнная длинна*/ }
+  width: 10%; }
 
 /*настройка переключения и положения для левой стрелки*/
 /*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
@@ -436,7 +441,7 @@ article img {
   background: url("../img/prev.png") no-repeat;
   /*заливка фона картинкой без повторений*/
   float: left;
-  margin: -85px 0 0 0;
+  margin: -145px 0 0 0;
   /*сдвиг влево*/
   display: block;
   height: 68px;
@@ -451,7 +456,7 @@ article img {
   background: url("../img/next.png") no-repeat;
   /*заливка фона картинкой без повторений*/
   float: right;
-  margin: -85px 0 0 0;
+  margin: -145px 0 0 0;
   /*сдвиг вправо*/
   display: block;
   height: 68px;
@@ -461,9 +466,31 @@ label, a {
   /*при наведении на стрелки или переключатели - курсор изменится*/
   cursor: pointer; }
 
-.all input {
-  /*скрывает стандартные инпуты (чекбоксы) на странице*/
-  display: none; }
+.all {
+  width: 600px;
+  margin-top: 40px;
+  margin-left: 88px; }
+  .all input {
+    /*скрывает стандартные инпуты (чекбоксы) на странице*/
+    display: none; }
+  .all h3 {
+    width: 640px; }
+
+.inforoom h4 {
+  margin: 44px;
+  margin-bottom: 190px; }
+
+.inforoom .brone {
+  text-align: center;
+  color: white;
+  background: gray;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 1s all;
+  cursor: pointer; }
+  .inforoom .brone:hover {
+    background: #c2bbbb; }
 
 /*позиция изображения при активации переключателя*/
 #switch1:checked ~ #slides .image {
