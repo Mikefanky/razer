@@ -17,6 +17,9 @@ header{
         }
     }
     .menu{
+        #vhod{
+        margin-left: 540px;
+        }
         a{
             margin-left:20px;
             color:#0D4919;
@@ -501,13 +504,12 @@ footer{
 }
 
 .inforoom{
-    width: 450pxpx;
+    width: 450px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin:77px;
-    
-}
+    margin:77px;  
+    }
 
 #slides article{ /*все изображения справа друг от друга*/
     width: 20%;
@@ -579,15 +581,16 @@ label, a{ /*при наведении на стрелки или переклю�
 .inforoom{
     h4{
     margin: 44px;
-    margin-bottom: 190px;
     }
+        a{
+        margin-left: 82px;
+        }
+
     .brone{
             text-align: center;
             color:white;
             background: gray;
-            margin-top:10px;
-            padding-top:5px;
-            padding-bottom: 5px;
+            margin-left: 0px;
             transition:1s all;
             cursor: pointer;
             &:hover{
@@ -688,6 +691,16 @@ label, a{ /*при наведении на стрелки или переклю�
         width: 270px;
         background: #323232;
     }
+        textarea{
+            height: 150px;
+            resize: none;
+            width: 270px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 15px;
+            background: #323232;
+        }
     .btn.brone{
         border:1px solid rgba(255,255,255, 0.3);
         margin-top:5px;
@@ -724,6 +737,39 @@ label, a{ /*при наведении на стрелки или переклю�
     flex-direction: row;
     flex-wrap: wrap;
  }
+
+
+ ///ADMIN
+ .alladmin{
+    width: 300px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    h1{
+        margin-left: 105px;
+    }
+        input{
+        margin-left: 15px;
+        width: 270px;
+    }
+}
+    .buttom{
+        width: 75px;
+        margin-left: 115px;
+        border:1px solid;
+        text-align: center;
+        color:white;
+        background: gray;
+        margin-top:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        transition:1s all;
+        cursor: pointer;
+            &:hover{
+                background: rgb(194, 187, 187);
+            }
+        }
+
 ///PARALAX
 .parallax-window {
     min-height: 306px;
