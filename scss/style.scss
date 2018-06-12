@@ -466,10 +466,15 @@ footer{
         width: 270px;
         background: #323232;
     }
+    p{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
     .btn.brone{
+        width: 239px;
         border:1px solid rgba(255,255,255, 0.3);
-        margin-top:5px;
-        margin-bottom:5px;
+        margin-top:10px;
+        margin-bottom:10px;
     }
 }
     .forma{
@@ -666,10 +671,6 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 
-
-
-
-
 ///CONTACTS
 .feedback{
     width: 777px;
@@ -688,13 +689,18 @@ label, a{ /*при наведении на стрелки или переклю�
     background-color:#323232;
     input{
         margin-left: 15px;
-        width: 270px;
+        width: 358px;
         background: #323232;
-    }
+        }
+        p{
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+    
         textarea{
             height: 150px;
             resize: none;
-            width: 270px;
+            width: 358px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -742,6 +748,7 @@ label, a{ /*при наведении на стрелки или переклю�
  ///ADMIN
  .alladmin{
     width: 300px;
+    height: 500px;
     margin:auto;
     display: flex;
     flex-direction: column;
@@ -769,6 +776,48 @@ label, a{ /*при наведении на стрелки или переклю�
                 background: rgb(194, 187, 187);
             }
         }
+
+
+///ADMINISTRATION
+.fon{
+    width: 1200px;
+    height: 500px;
+    margin:inherit;
+    display: flex;
+    flex-direction: column;
+
+}
+.addfoto{
+    width: 445px;
+    margin-top: 35px;
+    margin-left: 75px;
+    input{
+    font-family:Lobster, cursive; 
+    h4{
+        border-radius: 10px;
+        padding:5px; 
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-family:Lobster, cursive; 
+        font-size:20px;
+    }
+}
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.one {
+margin-bottom: 25px;
+}
+.one h1 {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #b4e391 23%, #61c419 46%, #b4e391);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+}
 
 ///PARALAX
 .parallax-window {

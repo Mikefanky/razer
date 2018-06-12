@@ -46,6 +46,9 @@ app.get('/photogallery',function(req,res){
 app.get('/admin',function(req,res){
 	res.render("admin.ejs",{});
 });
+app.get('/admin/administration',function(req,res){
+	res.render("administration.ejs",{});
+});
 app.post('/brone',data.setBrone);
 
 // db.connect('mongodb://localhost:27017/razer',function(err){
