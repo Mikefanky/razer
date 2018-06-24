@@ -46,6 +46,34 @@ header{
     }
 }
 
+.news{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    margin-top:40px;
+    flex-wrap: wrap;
+    .item{
+        display: flex;
+        flex-direction: column;
+        flex: 0 565px;
+        margin-left: 5px;
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        padding: 5px;
+        .header{
+            .title{
+                font-size: 20px;
+                font-weight: bold;
+            }   
+            .time{
+                font-size: 12px;
+                color:rgba(80,0,0,0.6)
+            }
+        }
+    }
+}
+
 .info{
     width: 1200px;
     margin:auto;

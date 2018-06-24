@@ -17,10 +17,12 @@
     </main>
 	<section class="photogallery">
         <div class="box">
-            <img src="../img/100.jpg" alt="" class="my__img">
-            <img src="../img/101.jpg" alt="" class="my__img">
+            <%for(i in result){%>
+                <img src="../img/<%-result[i].img%>" alt="" class="my__img">
+            <%}%>
+            <!-- <img src="../img/101.jpg" alt="" class="my__img"> -->
             <img src="../img/102.jpg" alt="" class="my__img">
-            <img src="../img/103.jpg" alt="" class="my__img">
+           <!-- <img src="../img/103.jpg" alt="" class="my__img">
             <img src="../img/104.jpg" alt="" class="my__img">
             <img src="../img/105.jpg" alt="" class="my__img">
             <img src="../img/108.jpg" alt="" class="my__img">
@@ -43,7 +45,7 @@
             <img src="../img/123.jpg" alt="" class="my__img">
             <img src="../img/124.jpg" alt="" class="my__img">
             <img src="../img/125.jpg" alt="" class="my__img">
-            <img src="../img/126.jpg" alt="" class="my__img">
+            <img src="../img/126.jpg" alt="" class="my__img"> -->
         </div>
         </section>
         <div id="my__modal" class="my__modal">

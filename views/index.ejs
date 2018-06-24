@@ -20,6 +20,19 @@
         <a href="" ><img src="../img/07.jpg" alt=""></a>
         <a href="" ><img src="../img/010.jpg" alt=""></a>
    </section>
+   <section class="news">
+        <%for(i in result){%>
+            <div class="item">
+                <div class="header">
+                    <div class="title"><%-result[i].title%></div>
+                    <div class="time"><%-result[i].time%></div>
+                </div>
+                <div class="content">
+                        <%-result[i].content%>
+                </div>
+            </div>
+        <%}%>
+   </section>
     <section class="info">
         <div class="item itemBig">
             <p>«Razer» — уютная современная гостиница эконом-класса, которая предлагает высокий уровень комфорта и обслуживания по разумной цене.<br>
