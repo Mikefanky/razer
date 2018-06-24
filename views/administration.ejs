@@ -10,20 +10,20 @@
 <body>
 	<section class="fon">
 	<div class="addfoto">
-		<input type='submit' name='exit' value='Выйти' id="logOut">
+		
 		<div class="one"><h1 align="center">RAZER<br>Administration</h1></div>
+		<input type='submit' name='exit' value='Выйти' id="logOut">
+		<h4>Добавление фотографии </h4>
 		<form enctype="multipart/form-data">
 			<input type="file" id="photoImg">
-			<div class="btn submit">Add</div>
+			<div class="btn submit" id="btnAdd">Добавить</div>
 		</form>
-		<h4>Добавление фотографии </h4>
 		
-		<h4>Удаление фотографии </h4>
 	</div>
 	<div class="NewsAdd">
-		<input type="text" placeholder="Header" id="title">
-		<textarea placeholder="Content" id="content"></textarea>
-		<div class="btn newsSend">Add</div>
+		<input type="text" placeholder="Название новости" id="title">
+		<textarea placeholder="Описание новости" id="content"></textarea>
+		<div class="btn newsSend" id="btnAdd">Добавить</div>
 	</div>
 	</section>
 </body>
